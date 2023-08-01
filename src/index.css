@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* styles.css */
+.three-image-carousel .carousel-inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.three-image-carousel .carousel-inner .carousel-item {
+  display: flex;
+}
+
+.three-image-carousel img {
+  height: auto;
+  margin: 5px;
+}
+
+/* Optional: Adjust carousel arrows (hide default arrows) */
+.carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}
+
+/* Optional: Add custom arrows */
+.three-image-carousel .custom-carousel-control {
+  position: absolute;
+  top: 40%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.three-image-carousel .custom-carousel-control:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
