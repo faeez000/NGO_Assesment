@@ -1,6 +1,7 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import Button from 'react-bootstrap/Button';
+import { ProgressBar } from 'react-bootstrap';
 
 function TrustInfo() {
   const imageurl1 ="https://images.unsplash.com/photo-1594708767771-a7502209ff51?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cG9vciUyMGNoaWxkfGVufDB8fDB8fHww&w=1000&q=80";
@@ -13,7 +14,7 @@ function TrustInfo() {
   const imageurl8="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqbHHD6V-QTyfyQOGYqUWSW45PB1SgAZJPw1Ts4vUZK_lpTldOXtN1CKW25I7zHWgRlkk&usqp=CAU"
   const imageurl9="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLbtwbaUMl45hfTFCpmaPztazAvJ5l1wbr5tXXsV-jfUGggFBLPFnrJ1s7ohTQfYl_N8w&usqp=CAU"
 
-
+  const progressValue = 80;
 
   return (
     <div>
@@ -28,6 +29,9 @@ function TrustInfo() {
                   alt="First slide"
                 />
                 <p className="text-center fw-bold"> ₹6,40,643 raised out of  ₹7,57,000</p>
+                <div className="progress-container" style={{ width: "80%",margin: "20px"}}>
+                  <ProgressBar now={progressValue} label={`${progressValue}%`} />
+                </div>
               </div>
 
               <div className="col-4 ml-3 ">
@@ -37,6 +41,9 @@ function TrustInfo() {
                   alt="First slide"
                 />
                 <p className="text-center fw-bold"> ₹92,05,432 raised out of  ₹94,00,000</p>
+                <div className="progress-container" style={{ width: "80%",margin: "20px"}}>
+                  <ProgressBar now={progressValue} label={`${progressValue}%`} />
+                </div>
               </div>
 
               <div className="col-4 ml-3 ">
@@ -46,6 +53,9 @@ function TrustInfo() {
                   alt="First slide"
                 />
                 <p className="text-center fw-bold"> ₹3,45,000 raised out of  ₹7,00,000</p>
+                <div className="progress-container" style={{ width: "80%",margin: "20px"}}>
+                  <ProgressBar now={progressValue} label={`${progressValue}%`} />
+                </div>
               </div>
             </div>
           </Carousel.Item>
@@ -65,6 +75,9 @@ function TrustInfo() {
                   alt="First slide"
                 />
                 <p className="text-center fw-bold"> ₹3,45,000 raised out of  ₹7,00,000</p>
+                <div className="progress-container" style={{ width: "80%",margin: "20px"}}>
+                  <ProgressBar now={progressValue} label={`${progressValue}%`} />
+                </div>
               </div>
 
               <div className="col-4 ml-3 ">
@@ -74,6 +87,9 @@ function TrustInfo() {
                   alt="First slide"
                 />
                   <p className="text-center fw-bold"> ₹92,05,432 raised out of  ₹94,00,000</p>
+                  <div className="progress-container" style={{ width: "80%",margin: "20px"}}>
+                  <ProgressBar now={progressValue} label={`${progressValue}%`} />
+                </div>
               </div>
 
               <div className="col-4 ml-3 ">
@@ -83,6 +99,9 @@ function TrustInfo() {
                   alt="First slide"
                 />
                  <p className="text-center fw-bold"> ₹6,40,643 raised out of  ₹7,57,000</p>
+                 <div className="progress-container" style={{ width: "80%",margin: "20px"}}>
+                  <ProgressBar now={progressValue} label={`${progressValue}%`} />
+                </div>
               </div>
             </div>
           </Carousel.Item>
@@ -135,6 +154,9 @@ function TrustInfo() {
                   alt="First slide"
                 />
                 <p className="text-center fw-bold"> ₹92,05,432 raised out of  ₹94,00,000</p>
+                <div className="progress-container" style={{ width: "80%",margin: "20px"}}>
+                  <ProgressBar now={progressValue} label={`${progressValue}%`} />
+                </div>
               </div>
 
               <div className="col-4 ml-3 ">
@@ -144,6 +166,9 @@ function TrustInfo() {
                   alt="First slide"
                 />
                  <p className="text-center fw-bold"> ₹6,40,643 raised out of  ₹7,57,000</p>
+                 <div className="progress-container" style={{ width: "80%",margin: "20px"}}>
+                  <ProgressBar now={progressValue} label={`${progressValue}%`} />
+                </div>
               </div>
 
               <div className="col-4 ml-3 ">
@@ -153,6 +178,9 @@ function TrustInfo() {
                   alt="First slide"
                 />
                 <p className="text-center fw-bold"> ₹3,45,000 raised out of  ₹7,00,000</p>
+                <div className="progress-container" style={{ width: "80%",margin: "20px"}}>
+                  <ProgressBar now={progressValue} label={`${progressValue}%`} />
+                </div>
               </div>
             </div>
           </Carousel.Item>
